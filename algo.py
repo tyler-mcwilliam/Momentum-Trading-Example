@@ -12,10 +12,16 @@ api_key_id = 'APCA_API_KEY_ID'
 api_secret = 'APCA_API_SECRET_KEY'
 
 api = tradeapi.REST(
-    base_url=base_url,
-    key_id=api_key_id,
-    secret_key=api_secret
+    key_id='PK6U6ED9E8HXK3SWW268',
+    secret_key='SouRAmDePmiQkyEEsiLItQx72dylQuMizDvFZpWI',
+    base_url='https://paper-api.alpaca.markets'
 )
+
+# api = tradeapi.REST(
+#     base_url=base_url,
+#     key_id=api_key_id,
+#     secret_key=api_secret
+# )
 
 session = requests.session()
 
