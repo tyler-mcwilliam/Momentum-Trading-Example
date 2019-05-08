@@ -7,13 +7,13 @@ from datetime import datetime, timedelta
 from pytz import timezone
 
 # Replace these with your API connection info from the dashboard
-# base_url = 'APCA_API_BASE_URL'
-# api_key_id = 'APCA_API_KEY_ID'
-# api_secret = 'APCA_API_SECRET_KEY'
+base_url = APCA_API_BASE_URL
+api_key_id = APCA_API_KEY_ID
+api_secret = APCA_API_SECRET_KEY
 
-base_url = 'https://paper-api.alpaca.markets'
-api_key_id = 'PK6U6ED9E8HXK3SWW268'
-api_secret = 'SouRAmDePmiQkyEEsiLItQx72dylQuMizDvFZpWI'
+# base_url = 'https://paper-api.alpaca.markets'
+# api_key_id = 'PK6U6ED9E8HXK3SWW268'
+# api_secret = 'SouRAmDePmiQkyEEsiLItQx72dylQuMizDvFZpWI'
 
 api = tradeapi.REST(
     base_url=base_url,
